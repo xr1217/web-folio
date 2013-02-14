@@ -1,0 +1,53 @@
+* {
+	font-family: Calibri, Arial, sans-serif;
+	color: white;
+	background-color: black;
+}
+
+html {
+	margin-left: 5.000em;
+}
+
+#toggleEdu {
+	width: 70%;
+}
+
+#toggleInt {
+	width: 90%;
+}
+
+#hello {
+	color: orange;
+	
+}
+
+#begin, #displaysrc {
+	font-size: 1em;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.displayText {
+	font-size: 1.250em;
+}
+
+#dunman {
+	color: blue;
+}
+
+#high {
+	color: red;
+}
+
+#Bennu {
+	color: red;
+}
+
+#fire {
+	color: orange;
+	font-family: Vivaldi, serif;
+}
+
+#dizi, #tkd {
+	text-decoration: none;
+}

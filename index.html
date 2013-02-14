@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+	    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>XR's Web-Folio!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+        <script language="javascript" src="script.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+		
+			<h1><a id="hello">Hello,</a></h1>
+			<h2>welcome to my web-folio, where you'll learn more about me!</h2>
+			<h2>My name is Xiang Rong.</h2>
+
+			<p><a id="begin">Click any of the following categories:</a></p>
+		
+			<p><a class="displayText" id="displayAbout" href="javascript:toggleAbout();">About Me</a></p>
+			<div class="toggleText" id="toggleAbout" style="display: none">
+			<p>Name: Chia Xiang Rong (谢向荣)</p>
+			<p>Sex: Male</p>
+			<p>Date of Birth: 17/12/1996</p>
+			<p>Race: Chinese</p>
+			<p>Nationality: Singaporean</p>
+			</div>
+			
+			<p><a class="displayText" id="displayEdu" href="javascript:toggleEdu();">Education</a></p>
+			<div class="toggleText" id="toggleEdu" style="display: none">
+				<a href="http://www.dhs.sg"><img src="Images\DHScrest.png" width="150" height="150" align="right"></a>
+				<p>I study in <a id="dunman">Dunman</a> <a id="high">High</a> School</a>, located at 10 Tanjong Rhu Road.</p>
+				<p>I'm from class 5C23, from house <a id="Bennu">Bennu</a>! <a id="fire">Spark the fire, feel thy flame!</a></p>
+				<p>Previous classes:</p>
+				<ul>
+					<li>1/2 Ferra'12/13</li>
+					<li>3/4 Boomzxc'12/13</li>
+				</ul>
+			</div>
+		
+			<p><a class="displayText" id="displayInt" href="javascript:toggleInt();">Interests/Competencies</a></p>
+			<div class="toggleText" id="toggleInt" style="display: none">
+				<ul>
+					<li>
+					<a href="http://en.wikipedia.org/wiki/Dizi_(instrument)" id="dizi"><p>Chinese Flute(笛子)</p></a>
+					<a href="http://en.wikipedia.org/wiki/Dizi_(instrument)"><img src="Images\dizi.jpg" width="300" height="240"></a>
+					<p>Since primary school, I have chosen Chinese Orchestra as my CCA and I play the flute. I have taken part in various events such as the biannual SYF (now SYC) competitions and the National Chinese Music Competition. </p>
+					</li>
+					
+					<li>
+					<p><a href="http://en.wikipedia.org/wiki/Taekwondo" id="tkd">Taekwondo</a></p>
+					<a href="http://en.wikipedia.org/wiki/Taekwondo"><img src="Images\tkd.jpg"></a>
+					<p>I have been learning Taekwondo since primary school, and have since attained 2nd dan black belt. I have joined the Senior High Taekwondo Club this year.</p>
+					</li>
+					
+					<li>
+					<p>Malay (as a 3rd language)</p>
+					<p>When presented with a choice to take up a third language in Year 1, I chose Malay (Special Program) over the other languages as I felt it would be more applicable in our society.</p>
+					<p>O'level results: B3</p>
+				</ul>	
+			</div>
+			
+			<p><a class="displayText" id="displayContact" href="javascript:toggleContact();">Contact Me</a></p>
+			<div class="toggleText" id="toggleContact" style="display: none">
+			<p>Email: <a href="mailto:chia.xiangrong@dhs.sg">chia.xiangrong@dhs.sg</a></p>
+			</div>
+			
+			<p><a id="displaysrc" href="javascript:togglesrc();">Sources and References</a></p>
+			<div class="toggleText" id="togglesrc" style="display: none">
+			<ul>
+				<li>DHS crest - http://www.dhs.sg/images/DHS%20logo%20CMYK.jpg</li>
+				<li>TKD photo - http://www.srjc.moe.edu.sg/wbn/slot/u2393/Photos/.tn.Taekwondo.jpg.mid.jpg</lo>
+				<li>Dizi photo - http://4.bp.blogspot.com/_6M2E6dGLXfw/SukYwbdbTMI/AAAAAAAAJJw/QFwDB6FYg-A/s400/Dizi.jpg</li>
+				<li>HTML5 Boilerplate</li>
+			</ul>
+	</body>
+</html>
